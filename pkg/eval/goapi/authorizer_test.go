@@ -37,6 +37,7 @@ type AuthorizeStruct struct {
 
 var result interface{}
 
+// goapi % go test -bench=Autorizer_Authorize -benchtime=10s -run=dontrunanytests
 //ToDo: Benchmark parallel executions
 func BenchmarkAutorizer_Authorize(b *testing.B) {
 
